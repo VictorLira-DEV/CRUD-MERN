@@ -1,0 +1,48 @@
+.form {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form h2 {
+  margin-bottom: 10px;
+}
+
+.form .FormControl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.form .FormControl input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  color: #424242;
+  border: 1px solid #aaaaaa;
+  font-weight: bolder;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.form button:last-child {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=FormControl.module.css.map */
